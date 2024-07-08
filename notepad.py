@@ -92,9 +92,7 @@ Editmenu.add_command(label="Copy   ctrl+c", command=copy)
 Editmenu.add_command(label="Paste  ctrl+v", command=paste)
 EditTab.grid(row="0", column="2")
 
-# def font():
-#     color = askcolor()
-#     print(color)
+
 FormatTab = Menubutton(win, text='Format')
 Formatmenu = Menu(FormatTab, tearoff=0)
 FormatTab['menu'] = Formatmenu
